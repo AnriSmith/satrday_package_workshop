@@ -9,7 +9,7 @@ To get the best out of the workshop and your ticket $ it'll be optimal for you t
 
 * [prepared your system for package development](http://stat545.com/packages01_system-prep.html)
 
-* also installed [usethis](https://cran.r-project.org/web/packages/usethis/index.html)
+* also installed [usethis](https://cran.r-project.org/web/packages/usethis/index.html), [testthat](https://cran.r-project.org/web/packages/testthat/index.html), [covr](https://cran.r-project.org/web/packages/covr/index.html), [lintr](https://cran.r-project.org/web/packages/lintr/index.html), [readr](https://cran.r-project.org/web/packages/readr/index.html)
 
 * [installed git](http://happygitwithr.com/install-git.html) 
 
