@@ -55,36 +55,33 @@ Jon Calder's very good wording, thanks Jon!
 
 --
 
-Tools we'll discover today
-
 * `RStudio`
 
-* `devtools` & `usethis`
+* `devtools` and `usethis`
 
 * `roxygen2`
 
 
---- 
-
+---
 ## Today's workshop
+
+--
 
 * Hands-on! Is every laptop ready?
 
+--
 
--- 
+* These slides, hands-on, then a few slides again.
 
-* This intro, then hands-on, then a few slides again.
-
--- 
+--
 
 * Ask and help us help you!
 
 --
 
-* You should go home knowing the basics and knowing how to go further.
+* You should go home knowing the basics and how to go further.
 
---- 
-
+---
 ## Today's package
 
 `someone`, create fake people.
@@ -120,21 +117,32 @@ Link to a discussion
 
 ## How to go further: contribute to other packages?
 
+--
+
 * rOpenSci review and contributr Shiny app
 
-* Mara's guide about the tidyverse
+--
 
---- 
+*  Mara's guide about the tidyverse
+
+
+---
 
 ## Last but not least, what about `someone`?
 
-* Ask more data from Stats SA?
+--
 
-* Andrew Collier's [`saffeR`](https://github.com/DataWookie/saffeR), an R package aggregating a selection of things relating to South Africa. 
+*  Ask more data from Stats SA?
 
---- 
+--
+
+*  Andrew Collier's [`saffeR`](https://github.com/DataWookie/saffeR), an R package aggregating a selection of things relating to South Africa. 
+
+
+---
 
 ## See you tomorrow! Sien jou môre! Ngizokubona kusasa! Ndiza kubona ngomso!
 
---- 
+<iframe src="https://giphy.com/embed/l4KibK3JwaVo0CjDO" width="480" height="474" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/afv-funny-fail-lol-l4KibK3JwaVo0CjDO">via GIPHY</a></p>
+
 
