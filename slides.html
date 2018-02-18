@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R package development</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Maëlle Salmon" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R package development
+## from laying functions to package hatching
+### Maëlle Salmon
+### 2018/03/16
+
+---
+
+
+
+
+
+## Good morning! Goeie môre! Sanibonani! Molweni! Bonjour!
+
+What I do in R...
+
+* (Research) software engineer for rOpenSci &amp; Locke Data.
+
+* R-Ladies, R Weekly.
+
+* Onboarding co-editor at rOpenSci.
+
+
+---
+
+## Why learning about package development?
+
+Jon Calder's very good wording, thanks Jon!
+
+--
+
+* To share code (and data)
+
+--
+
+* To leverage existing tooling
+
+--
+
+* To contribute to other packages
+
+
+---
+
+## Automation!
+
+&lt;blockquote class="twitter-tweet" data-lang="ca"&gt;&lt;p lang="en" dir="ltr"&gt;The usethis package implements this important principle: Automate that which can be automated. Your computer was literally born to implement rote-but-fussy stuff for you. &lt;a href="https://t.co/OfIUzSBlc7"&gt;https://t.co/OfIUzSBlc7&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jenny Bryan (@JennyBryan) &lt;a href="https://twitter.com/JennyBryan/status/935562495816753153?ref_src=twsrc%5Etfw"&gt;28 de novembre de 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+--
+
+Tools we'll discover today
+
+* `RStudio`
+
+* `devtools` &amp; `usethis`
+
+* `roxygen2`
+
+
+--- 
+
+## Today's workshop
+
+* Hands-on! Is every laptop ready?
+
+
+-- 
+
+* This intro, then hands-on, then a few slides again.
+
+-- 
+
+* Ask and help us help you!
+
+--
+
+* You should go home knowing the basics and knowing how to go further.
+
+--- 
+
+## Today's package
+
+`someone`, create fake people.
+
+* Inspired by [`charlatan`](https://github.com/ropensci/charlatan), "create fake data in R".
+
+* real baby names data from Stats SA.
+
+---
+
+## Let's go!
+
+&lt;iframe src="https://giphy.com/embed/XOvKIu18WbpgQ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/XOvKIu18WbpgQ"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+## How to go further: your own package(s)?
+
+
+My own post with list of resources
+
+Package analytics example
+
+Who wants to adopt `someone`?
+
+---
+
+## How to go further: your research compendii?
+
+Link to a discussion
+
+---
+
+## How to go further: contribute to other packages?
+
+* rOpenSci review and contributr Shiny app
+
+* Mara's guide about the tidyverse
+
+--- 
+
+## Last but not least, what about `someone`?
+
+* Ask more data from Stats SA?
+
+* Andrew Collier's [`saffeR`](https://github.com/DataWookie/saffeR), an R package aggregating a selection of things relating to South Africa. 
+
+--- 
+
+## See you tomorrow! Sien jou môre! Ngizokubona kusasa! Ndiza kubona ngomso!
+
+---
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

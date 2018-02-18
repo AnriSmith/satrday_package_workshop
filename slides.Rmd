@@ -1,5 +1,5 @@
 ---
-title: "R package development 📦📦"
+title: "R package development"
 subtitle: "from laying functions to package hatching"
 author: "Maëlle Salmon "
 date: "2018/03/16"
@@ -17,7 +17,7 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-## Good morning! Goeie môre! Sanibonani! Molweni!
+## Good morning! Goeie môre! Sanibonani! Molweni! Bonjour!
 
 What I do in R...
 
@@ -70,10 +70,6 @@ Tools we'll discover today
 
 * Hands-on! Is every laptop ready?
 
-````r
-devtools::has_devel()
-
-```
 
 -- 
 
@@ -97,12 +93,13 @@ devtools::has_devel()
 
 * real baby names data from Stats SA.
 
+---
+
 ## Let's go!
 
 <iframe src="https://giphy.com/embed/XOvKIu18WbpgQ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XOvKIu18WbpgQ">via GIPHY</a></p>
 
 ---
-
 
 ## How to go further: your own package(s)?
 
