@@ -1,0 +1,143 @@
+---
+title: "R package development 📦📦"
+subtitle: "from laying functions to package hatching"
+author: "Maëlle Salmon "
+date: "2018/03/16"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+## Good morning! Goeie môre! Sanibonani! Molweni!
+
+What I do in R...
+
+* (Research) software engineer for rOpenSci & Locke Data.
+
+* R-Ladies, R Weekly.
+
+* Onboarding co-editor at rOpenSci.
+
+
+---
+
+## Why learning about package development?
+
+Jon Calder's very good wording, thanks Jon!
+
+--
+
+* To share code (and data)
+
+--
+
+* To leverage existing tooling
+
+--
+
+* To contribute to other packages
+
+
+---
+
+## Automation!
+
+<blockquote class="twitter-tweet" data-lang="ca"><p lang="en" dir="ltr">The usethis package implements this important principle: Automate that which can be automated. Your computer was literally born to implement rote-but-fussy stuff for you. <a href="https://t.co/OfIUzSBlc7">https://t.co/OfIUzSBlc7</a></p>&mdash; Jenny Bryan (@JennyBryan) <a href="https://twitter.com/JennyBryan/status/935562495816753153?ref_src=twsrc%5Etfw">28 de novembre de 2017</a></blockquote>
+
+--
+
+Tools we'll discover today
+
+* `RStudio`
+
+* `devtools` & `usethis`
+
+* `roxygen2`
+
+
+--- 
+
+## Today's workshop
+
+* Hands-on! Is every laptop ready?
+
+````r
+devtools::has_devel()
+
+```
+
+-- 
+
+* This intro, then hands-on, then a few slides again.
+
+-- 
+
+* Ask and help us help you!
+
+--
+
+* You should go home knowing the basics and knowing how to go further.
+
+--- 
+
+## Today's package
+
+`someone`, create fake people.
+
+* Inspired by [`charlatan`](https://github.com/ropensci/charlatan), "create fake data in R".
+
+* real baby names data from Stats SA.
+
+## Let's go!
+
+<iframe src="https://giphy.com/embed/XOvKIu18WbpgQ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XOvKIu18WbpgQ">via GIPHY</a></p>
+
+---
+
+
+## How to go further: your own package(s)?
+
+
+My own post with list of resources
+
+Package analytics example
+
+Who wants to adopt `someone`?
+
+---
+
+## How to go further: your research compendii?
+
+Link to a discussion
+
+---
+
+## How to go further: contribute to other packages?
+
+* rOpenSci review and contributr Shiny app
+
+* Mara's guide about the tidyverse
+
+--- 
+
+## Last but not least, what about `someone`?
+
+* Ask more data from Stats SA?
+
+* Andrew Collier's [`saffeR`](https://github.com/DataWookie/saffeR), an R package aggregating a selection of things relating to South Africa. 
+
+--- 
+
+## See you tomorrow! Sien jou môre! Ngizokubona kusasa! Ndiza kubona ngomso!
+
+--- 
+
