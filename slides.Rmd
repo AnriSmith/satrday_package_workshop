@@ -101,17 +101,16 @@ Jon Calder's very good wording, thanks Jon!
 ## How to go further: your own package(s)?
 
 
-My own post with list of resources
-
-Package analytics example
-
-Who wants to adopt `someone`?
+My own blog post with many links to fantastic resources: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/)
 
 ---
 
 ## How to go further: your research compendii?
 
-Link to a discussion
+Research compendium = R package containing all the code (and data) incl. dependencies list, necessary to reproduce an article.
+
+
+See [this thread for instance](https://github.com/ropensci/unconf17/issues/5).
 
 ---
 
@@ -119,11 +118,11 @@ Link to a discussion
 
 --
 
-* rOpenSci review and contributr Shiny app
+* rOpenSci onboarding (more on that tomorrow!) and [contributr Shiny app](https://github.com/LucyMcGowan/contributr).
 
 --
 
-*  Mara's guide about the tidyverse
+*  Mara Averick's ["contributing to the tidyverse"](https://github.com/batpigandme/tverse_contributing/blob/master/tverse_contributing_rstudioconf_compressed.pdf) slides, [tidyverse contributing guide](https://www.tidyverse.org/contribute/), [Jim Hester's blog post "contributing code to the tidyverse"](http://www.jimhester.com/2017/08/08/contributing/).
 
 
 ---
