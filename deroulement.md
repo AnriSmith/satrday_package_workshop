@@ -10,16 +10,33 @@ Imprimer la cheatsheet de RStudio de R package development et la distribuer à l
 
 Réserver le dernier créneau à des questions / trucs moins cruciaux / rattrapage de retard.
 
+Send data and LICENCE for data to everyone
+
+=========================================================
+
 BASICS
+if (interactive()) {
+  suppressMessages(require(devtools))
+  suppressMessages(require(usethis))
+}
 
 usethis::create_package
 modifier DESCRIPTION
+usethis:: licence
 
 delete
 usethis options name
+options(
+  usethis.name = "Maëlle Salmon",
+  usethis.description = list(
+    `Authors@R` = 'person("Maëlle", "Salmon", email = "maelle.salmon@yahoo.se", role = c("aut", "cre"))',
+    License = "MIT + file LICENSE",
+    Version = "0.0.0.9000"
+  )
+)
 usethis::create_package
 
-usethis:: licence
+
 créer fonction give_age, load_all puis documenter
 montrer NAMESPACE et man
 installer et montrer que c'est là 
@@ -27,9 +44,15 @@ use_pkg doc
 
 use_git
 
-regler connections de RStudio à GH et de GH à git
 créer repo GitHub
-
+cloner
+push
+montrer ce qu'on voit sur Github
+mission: go star the repo of your neighbour
+and follow your neighbour
+then open an issue in your repository e.g. "add a cool function"
+and assign yourself
+see more details in Jenny's book
 
 liens use_github_links
 use_readme et code de conduite
@@ -50,15 +73,23 @@ creer fonction
 
 vignette
 
+devtools::check
+
 à ce moment, donner cheatsheet et faire le point et les faire ajouter tests, vignette, liens dans docs etc.
 montrer flowchart again
 
 use_travis CI
 use_covr
+mention use_appveyor
 
 lintr
+spell_check
 goodpractice
 
-autres moyens d'avoir du feedback
+How to install
+show how to:
+NEWS.md + release!
+
+pkgdown
 
 package analytics
