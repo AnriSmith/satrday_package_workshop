@@ -1,7 +1,7 @@
 ---
 title: "R package development"
 subtitle: "from laying functions to package hatching"
-author: "Maëlle Salmon "
+author: "Maëlle Salmon (`r icon::fa('twitter')` ma_salmon, `r icon::fa('github')` maelle)"
 date: "2018/03/16"
 output:
   xaringan::moon_reader:
@@ -51,9 +51,37 @@ Jon Calder's very good wording, thanks Jon!
 
 ## Automation!
 
+![](assets/automate_meme.jpg )
+
+
+---
+
+## Automating... How?
+
+Remember Clippy?
+
+![](assets/clippy.jpg)
+
+
+---
+
+
+## Automating... How?
+
+Get to know an actually useful Clippy, `usethis`!
+
+![](assets/usethis_clippy.png)
+
+
+---
+
+## `usethis` and co
+
 <blockquote class="twitter-tweet" data-lang="ca"><p lang="en" dir="ltr">The usethis package implements this important principle: Automate that which can be automated. Your computer was literally born to implement rote-but-fussy stuff for you. <a href="https://t.co/OfIUzSBlc7">https://t.co/OfIUzSBlc7</a></p>&mdash; Jenny Bryan (@JennyBryan) <a href="https://twitter.com/JennyBryan/status/935562495816753153?ref_src=twsrc%5Etfw">28 de novembre de 2017</a></blockquote>
 
 --
+
+We shall use this ecosystem today:
 
 * `RStudio`
 
