@@ -14,28 +14,51 @@ BASICS
 
 usethis::create_package
 modifier DESCRIPTION
+
+delete
+usethis options name
+usethis::create_package
+
 usethis:: licence
 créer fonction give_age, load_all puis documenter
 montrer NAMESPACE et man
 installer et montrer que c'est là 
 use_pkg doc
+
 use_git
-créer repo GitHJub 
+
+regler connections de RStudio à GH et de GH à git
+créer repo GitHub
+
+
 liens use_github_links
 use_readme et code de conduite
+
 use_testthat, use_test
+
+praise&magrittr
+importFrom
+ou ::
+use_package
+
 data
 data-raw
 documenter donnéees, global variable
 licence et DESCRIPTION
+
 creer fonction
+
 vignette
-à ce moment, donner cheatsheet et faire le point
+
+à ce moment, donner cheatsheet et faire le point et les faire ajouter tests, vignette, liens dans docs etc.
+montrer flowchart again
+
+use_travis CI
+use_covr
 
 lintr
 goodpractice
-CI
-covr
-autres moyens d'avoir du feedback?
+
+autres moyens d'avoir du feedback
 
 package analytics
