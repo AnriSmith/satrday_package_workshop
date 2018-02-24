@@ -129,13 +129,10 @@ We shall use this ecosystem today:
 
 ## A note on setup
 
-Get closer to developper bliss!
+Get closer to developer bliss!
 
 http://usethis.r-lib.org/articles/articles/usethis-setup.html
 
-* No more GitHub password entry?
-
-*
 
 ---
 
@@ -146,6 +143,62 @@ http://usethis.r-lib.org/articles/articles/usethis-setup.html
 * From GitHub `devtools::install_github`
 
 * CRAN release `devtools::release`. NEWS.md + release!
+
+---
+
+# How to plan your R package?
+
+---
+
+## Should your package even exist?
+
+* Will this piece of software really be useful to someone else than you?
+
+--
+
+* Is there already a package out there performing the exast same task?
+
+--
+
+* If there is one, would your implementation bring something to the market, e.g. an user-friendlier implementation?
+
+--
+
+* If there is already a similar package, should you work on your own or collaborate with the author(s) of the original package?
+---
+
+## What should your package contain exactly?
+
+--
+
+* Make your package compatible with the workflow of its future users.
+
+--
+
+* Do not get too ambitious.
+
+--
+
+Once it's decided:
+
+* Sketch a to-do list,
+
+* If working as a team like today define roles including roles for keeping contributors on track after the hackathon!
+
+---
+
+## What will your package be called?
+
+A descriptive, lower-case, cool name.
+
+--
+
+R package `available`.
+
+```{r, cache = TRUE, warning = FALSE, message = FALSE, results='asis'}
+available::available("available")
+
+```
 
 ---
 
