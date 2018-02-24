@@ -1,5 +1,5 @@
 Installation instructions ��
-library(devtools) has_devel()
+pkgbuild::check_build_tools()
 Pandoc
 
 " Don’t use package.skeleton() to create a package"

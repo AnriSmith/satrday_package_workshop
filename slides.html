@@ -76,7 +76,8 @@ Remember Clippy?
 
 Get to know an actually useful Clippy, `usethis`!
 
-![](assets/usethis_clippy.png)
+&lt;img src="assets/usethis_clippy.png" width="200" height="200" /&gt;
+
 
 
 ---
@@ -118,7 +119,7 @@ We shall use this ecosystem today:
 ---
 ## Today's package
 
-`someone`, create fake people.
+`iemand`, create fake people.
 
 * Inspired by [`charlatan`](https://github.com/ropensci/charlatan), "create fake data in R".
 
@@ -129,6 +130,102 @@ We shall use this ecosystem today:
 ## Let's go!
 
 &lt;iframe src="https://giphy.com/embed/XOvKIu18WbpgQ" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/XOvKIu18WbpgQ"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+## How to share your package?
+
+* Binary package
+
+* From GitHub `devtools::install_github`
+
+* CRAN release `devtools::release`. NEWS.md + release!
+
+---
+
+# Bring the package to its users
+
+François Chollet in __User experience design for APIs__, 2017-11-21.
+
+https://blog.keras.io/user-experience-design-for-apis.html
+
+_"In the long run, good design wins, because it makes its adepts more productive and more impactful, thus spreading faster than user-hostile undesign. Good design is infectious."_
+
+---
+
+## Documentation
+
+--
+
+Examples. Vignettes with example of a workflow.
+
+Build a website with [`pkgdown`](http://hadley.github.io/pkgdown/).
+
+--
+
+## User-friendly programming
+
+--
+
+* __Have error and warning messages that are easy to understand__. For instance, if communicating with an API, then translate http errors.
+
+--
+
+* __Check the input__. For instance, If a parameter provided to a function should be a positive number, check it is and if it is not, return a friendly error message.
+
+--
+
+* __Offer shortcuts__. For instance, if your function relies on an API key being provided, you can silently search for it in environment variables
+
+--
+
+* __Choose a good naming scheme__. Prefixing all functions?
+
+---
+
+## Promotion
+
+--
+
+* How do you discover packages? Where will your target audience discover your package?
+--
+
+* Social media, specific blogs, scientific journals.
+--
+
+* If your package is an interface to an existing tool or internet resource, try to have your package listed on that tool or resource webpage.
+
+--
+
+## Review
+--
+
+* Anyone can review your package. 
+--
+
+* The R Journal, the Journal of Statistical Software (JSS)
+--
+
+* rOpenSci https://github.com/ropensci/onboarding/ including partnerships with:
+
+  * Journal of Open Science Software (JOSS)
+  
+  * Methods in Ecology and Evolution (MEE)
+
+--
+
+Be a reviewer yourself!
+---
+
+## Package analytics
+
+* `cranlogs` package
+
+* `gh` package 
+
+* Track uses of your package http://happygitwithr.com/search.html
+
+---
 
 ---
 
@@ -161,7 +258,7 @@ See [this thread for instance](https://github.com/ropensci/unconf17/issues/5).
 
 ---
 
-## Last but not least, what about `someone`?
+## Last but not least, what about `iemand`?
 
 --
 
@@ -170,6 +267,8 @@ See [this thread for instance](https://github.com/ropensci/unconf17/issues/5).
 --
 
 *  Andrew Collier's [`saffeR`](https://github.com/DataWookie/saffeR), an R package aggregating a selection of things relating to South Africa. 
+
+* Julia Silge's [`southafricastats`](https://github.com/juliasilge/southafricastats), Population and Mortality Statistics for South Africa, built to support her introductory Shiny workshop at the February 2017 satRday conference.
 
 
 ---

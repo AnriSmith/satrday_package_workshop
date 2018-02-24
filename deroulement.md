@@ -1,7 +1,3 @@
-Regarder ce que l'UBC dit sur là où vivent les paquets.
-
-Montrer la figure de Jeff Leek Doc > Usability > Speed > blabla
-
 Acheter des post-its vert et rouge, enfin de deux couleurs, car il y aura des helpers.
 
 Montrer un exemple de paquet sur Github dont les issues ont des labels (de rOpenSci ou de la tidyverse).
@@ -38,10 +34,12 @@ usethis::create_package
 
 
 créer fonction give_age, load_all puis documenter
+attention project options roxygen2
 montrer NAMESPACE et man
 installer et montrer que c'est là 
 use_pkg doc
 
+use_git_config(user.name = "Jane Doe", user.email = "jane@example.com")
 use_git
 
 créer repo GitHub
@@ -87,9 +85,10 @@ spell_check
 goodpractice
 
 How to install
-show how to:
-NEWS.md + release!
+show how to: NEWS.md + release!
 
+
+now if time and maybe as choose your own adventure?
 pkgdown
 
 package analytics
