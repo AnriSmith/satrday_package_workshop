@@ -140,7 +140,7 @@ See [this thread for instance](https://github.com/ropensci/unconf17/issues/5).
 
 ---
 
-## See you tomorrow! Sien jou môre! Ngizokubona kusasa! Ndiza kubona ngomso!
+## See you tomorrow! Sien jou môre! Ngizokubona kusasa! Ndiza nibona ngomso!
 
 <iframe src="https://giphy.com/embed/l4KibK3JwaVo0CjDO" width="480" height="474" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/afv-funny-fail-lol-l4KibK3JwaVo0CjDO">via GIPHY</a></p>
 
