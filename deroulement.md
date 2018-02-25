@@ -1,95 +1,116 @@
-Acheter des post-its vert et rouge, enfin de deux couleurs, car il y aura des helpers.
-
-Montrer un exemple de paquet sur Github dont les issues ont des labels (de rOpenSci ou de la tidyverse).
-
-Imprimer la cheatsheet de RStudio de R package development et la distribuer à la fin / avant le dernier créneau.
-
-Réserver le dernier créneau à des questions / trucs moins cruciaux / rattrapage de retard.
-
-Send data and LICENCE for data to everyone
-
+SCHEDULE
 =========================================================
 
-BASICS
+# Session 1
+
+* Check everyone's installations... in the worst case pair people.
+
+* Intro slides about why to learn about package development, and about automation.
+
+* Make usethis and devtools available
+
 if (interactive()) {
   suppressMessages(require(devtools))
   suppressMessages(require(usethis))
 }
 
+* Create package skeleton
 usethis::create_package
-modifier DESCRIPTION
+modify DESCRIPTION
 usethis:: licence
 
-delete
-usethis options name
-options(
-  usethis.name = "Maëlle Salmon",
-  usethis.description = list(
-    `Authors@R` = 'person("Maëlle", "Salmon", email = "maelle.salmon@yahoo.se", role = c("aut", "cre"))',
-    License = "MIT + file LICENSE",
-    Version = "0.0.0.9000"
-  )
-)
-usethis::create_package
+* Create and document a first function
+create give_age, load_all 
+then write documentation of that function
+change project options roxygen2
+show NAMESPACE et man
 
+* Install the package
 
-créer fonction give_age, load_all puis documenter
-attention project options roxygen2
-montrer NAMESPACE et man
-installer et montrer que c'est là 
-use_pkg doc
+install package and show it's there in the library
 
+* git and GitHub setup
 use_git_config(user.name = "Jane Doe", user.email = "jane@example.com")
 use_git
 
-créer repo GitHub
-cloner
+create repo GitHub
+clone it
 push
-montrer ce qu'on voit sur Github
-mission: go star the repo of your neighbour
-and follow your neighbour
-then open an issue in your repository e.g. "add a cool function"
-and assign yourself
-see more details in Jenny's book
 
-liens use_github_links
-use_readme et code de conduite
 
+Yes I'd like to have the GitHub repo set up right from the beginning
+This way one can commit and navigate to the repo
+which is a way to take a break and to see what's just been done
+Plus, it's best practice.
+
+* Create the package doc if time allows
+use_package_doc
+
+# Session 2
+
+* First unit test
 use_testthat, use_test
 
+* Create the praise function that uses two external packages
 praise&magrittr
 importFrom
 ou ::
 use_package
 
+* Create the give_name function that uses external data
+Note that I'll have shared the data but also the code creating it.
 data
 data-raw
-documenter donnéees, global variable
-licence et DESCRIPTION
+document data, global variable
+write about data copyright in licence and DESCRIPTION
+create the function itself
 
-creer fonction
+So yay now we have 3 functions and we now how to test code!
 
-vignette
+# Session 3
 
-devtools::check
+* devtools::check!
+Mention other checks in passing (lintr, spellcheck, goodpractice)/
+do them on my laptop telling them not to do that yet (bc otherwise install issues)
 
-à ce moment, donner cheatsheet et faire le point et les faire ajouter tests, vignette, liens dans docs etc.
-montrer flowchart again
 
-use_travis CI
-use_covr
-mention use_appveyor
+* use_travis, use_coverage -- mention use_appveyor
 
-lintr
-spell_check
-goodpractice
+* Give the cheatsheet from RStudio, good way to get questions
 
-How to install
-show how to: NEWS.md + release!
+* GitHub exploration depending on time
+what does one see on GitHub
+Mission: go star the repo of your neighbour
+and follow your neighbour
+then open an issue in your repository e.g. "add a cool function"
+and assign yourself
 
-now if time and maybe as choose your own adventure?
-- pkgdown
-- package analytics
-- usethis setup
-- trying things out on GitHub e.g. pull requests to each other's packages,
+* If time, 
+liens use_github_links
+use_readme 
+use_conduct
+(put these functions + link to Jenny's book on slide that'll be 
+on the screen during the break)
+
+
+# Session 4
+
+Show them two things
+
+* vignette, pkgdown.
+
+* package analytics slide
+
+Choose your own adventure
+AND take all their questions
+
+* Write a vignette and make a pkgdown website.
+
+* add more tests, functions, etc, as you wish.
+
+* more checks? suggest them to use lintr, spell_check, goodpractice. 
+
+* trying things out on GitHub e.g. pull requests to each other's packages,
 creating branches
+
+* analytics of your favorite packages
