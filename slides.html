@@ -141,169 +141,55 @@ We shall use this ecosystem today:
 
 ---
 
-## A note on setup
+## Session 1
 
-Get closer to developer bliss!
-
-http://usethis.r-lib.org/articles/articles/usethis-setup.html
-
-
----
-
-## How to share your package?
-
-* Binary package
-
-* From GitHub `devtools::install_github`
-
-* CRAN release `devtools::release`. NEWS.md + release!
-
----
-
-# How to plan your R package?
-
----
-
-## Should your package even exist?
-
-* Will this piece of software really be useful to someone else than you?
+Minimal package, git and GitHub repo.
 
 --
 
-* Is there already a package out there performing the exast same task?
-
---
-
-* If there is one, would your implementation bring something to the market, e.g. an user-friendlier implementation?
-
---
-
-* If there is already a similar package, should you work on your own or collaborate with the author(s) of the original package?
----
-
-## What should your package contain exactly?
-
---
-
-* Make your package compatible with the workflow of its future users.
-
---
-
-* Do not get too ambitious.
-
---
-
-Once it's decided:
-
-* Sketch a to-do list,
-
-* If working as a team like today define roles including roles for keeping contributors on track after the hackathon!
-
----
-
-## What will your package be called?
-
-A descriptive, lower-case, cool name.
-
---
-
-R package `available`.
-
-
-```r
-available::available("available")
-```
-
--- available ------------------------------------------------------------------
-Name valid: &lt;U+2714&gt;
-Available on CRAN: &lt;U+2716&gt; 
-Available on Bioconductor: &lt;U+2716&gt;
-Available on GitHub:  &lt;U+2716&gt; 
-Bad Words: &lt;U+2714&gt;
-Abbreviations: http://www.abbreviations.com/available
-Wikipedia: https://en.wikipedia.org/wiki/available
-Wiktionary: https://en.wiktionary.org/wiki/available
-Urban Dictionary:
-  what someone is if they're not in a relationship.
-  Tags: single availability free unavailable the online sex for no taken
-  http://available.urbanup.com/1309715
-Sentiment:+++
-
----
-
-# Bring the package to its users
-
-François Chollet in __User experience design for APIs__, 2017-11-21.
-
-https://blog.keras.io/user-experience-design-for-apis.html
-
-_"In the long run, good design wins, because it makes its adepts more productive and more impactful, thus spreading faster than user-hostile undesign. Good design is infectious."_
-
----
-
-## Documentation
-
---
-
-Examples. Vignettes with example of a workflow.
-
-Build a website with [`pkgdown`](http://hadley.github.io/pkgdown/).
-
---
-
-## User-friendly programming
-
---
-
-* __Have error and warning messages that are easy to understand__. For instance, if communicating with an API, then translate http errors.
-
---
-
-* __Check the input__. For instance, If a parameter provided to a function should be a positive number, check it is and if it is not, return a friendly error message.
-
---
-
-* __Offer shortcuts__. For instance, if your function relies on an API key being provided, you can silently search for it in environment variables
-
---
-
-* __Choose a good naming scheme__. Prefixing all functions?
-
----
-
-## Promotion
-
---
-
-* How do you discover packages? Where will your target audience discover your package?
---
-
-* Social media, specific blogs, scientific journals.
---
-
-* If your package is an interface to an existing tool or internet resource, try to have your package listed on that tool or resource webpage.
-
---
-
-## Review
---
-
-* Anyone can review your package. 
---
-
-* The R Journal, the Journal of Statistical Software (JSS)
---
-
-* rOpenSci https://github.com/ropensci/onboarding/ including partnerships with:
-
-  * Journal of Open Science Software (JOSS)
+* [Hilary Parker's famous blog post _Writing an R package from scratch_](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
   
-  * Methods in Ecology and Evolution (MEE)
+* [this pictorial by Matthew J Denny](http://www.mjdenny.com/R_Package_Pictorial.html)
+
+* http://happygitwithr.com/
+
+* Get closer to developer bliss! http://usethis.r-lib.org/articles/articles/usethis-setup.html
+
+---
+
+## Session 2
+
+* An unit test
+
+* A function using external packages
+
+* Data (and a function using it)
 
 --
 
-Be a reviewer yourself!
----
+[_R packages_ by Hadley Wickham](http://r-pkgs.had.co.nz/)
+
+--- 
+
+## Session 3
+
+* How to automatically check your package
+
+* GitHub exploration
+
+--
+
+http://www.masalmon.eu/2017/06/17/automatictools/
+
+http://happygitwithr.com/
+
+`use_github_links`, `use_readme_md`, `use_code_of_conduct`
+
+## Session 4
+
+* vignette, `pkgdown` website
+
+* package analytics
 
 ## Package analytics
 
@@ -315,12 +201,27 @@ Be a reviewer yourself!
 
 ---
 
+## What more could you try out now
+
+* `usethis` setup
+
+* more functions? more tests? more docs?
+
+* more collaboration and review?
+
+* more analytics?
+
 ---
 
 ## How to go further: your own package(s)?
 
-
 My own blog post with many links to fantastic resources: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/)
+
+Two further tips:
+
+* Advertise your package via R Weekly, PR to the "new packages" or "new releases" category!
+
+* Use the `foghorn` package to get CRAN check results of your packages.
 
 ---
 

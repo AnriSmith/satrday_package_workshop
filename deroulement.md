@@ -73,24 +73,23 @@ So yay now we have 3 functions and we now how to test code!
 Mention other checks in passing (lintr, spellcheck, goodpractice)/
 do them on my laptop telling them not to do that yet (bc otherwise install issues)
 
-
 * use_travis, use_coverage -- mention use_appveyor
 
 * Give the cheatsheet from RStudio, good way to get questions
 
-* GitHub exploration depending on time
+* GitHub exploration 
+Goal = make the repo discoverable from the package docs
+and making it look useful and friendly
+use_github_links
+use_readme 
+use_conduct
+
+depending on time
 what does one see on GitHub
 Mission: go star the repo of your neighbour
 and follow your neighbour
 then open an issue in your repository e.g. "add a cool function"
 and assign yourself
-
-* If time, 
-liens use_github_links
-use_readme 
-use_conduct
-(put these functions + link to Jenny's book on slide that'll be 
-on the screen during the break)
 
 
 # Session 4
@@ -107,6 +106,8 @@ AND take all their questions
 * Write a vignette and make a pkgdown website.
 
 * add more tests, functions, etc, as you wish.
+
+* usethis setup
 
 * more checks? suggest them to use lintr, spell_check, goodpractice. 
 
