@@ -9,17 +9,9 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## CRAN logs
+## Package analytics: CRAN logs
 
-```{r}
-ggplot2_logs <- cranlogs::cran_downloads(packages = c("ggplot2", "dplyr"),
-                                         when = "last-month")
-library("ggplot2")
-ggplot(ggplot2_logs) +
-  geom_point(aes(date, count, col = package)) +
-  viridis::scale_color_viridis(discrete = TRUE)
 
-```
 
 ## GitHub stargazers
 

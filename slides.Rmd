@@ -15,6 +15,7 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ```
 
 ## Good morning! Goeie môre! Sanibonani! Molweni! Bonjour!
@@ -141,13 +142,13 @@ Minimal package, git and GitHub repo.
 
 --
 
-* [Hilary Parker's famous blog post _Writing an R package from scratch_](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
+* [Hilary Parker's famous blog post _Writing an R package from scratch_: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
   
-* [this pictorial by Matthew J Denny](http://www.mjdenny.com/R_Package_Pictorial.html)
+* [this pictorial by Matthew J Denny: http://www.mjdenny.com/R_Package_Pictorial.html](http://www.mjdenny.com/R_Package_Pictorial.html)
 
-* http://happygitwithr.com/
+* [http://happygitwithr.com/](http://happygitwithr.com/)
 
-* Get closer to developer bliss! http://usethis.r-lib.org/articles/articles/usethis-setup.html
+* [Get closer to developer bliss! http://usethis.r-lib.org/articles/articles/usethis-setup.html](http://usethis.r-lib.org/articles/articles/usethis-setup.html)
 
 ---
 
@@ -161,9 +162,9 @@ Minimal package, git and GitHub repo.
 
 --
 
-[_R packages_ by Hadley Wickham](http://r-pkgs.had.co.nz/)
+[_R packages_ by Hadley Wickham http://r-pkgs.had.co.nz/](http://r-pkgs.had.co.nz/)
 
---- 
+---
 
 ## Session 3
 
@@ -173,11 +174,13 @@ Minimal package, git and GitHub repo.
 
 --
 
-http://www.masalmon.eu/2017/06/17/automatictools/
+[http://www.masalmon.eu/2017/06/17/automatictools/](http://www.masalmon.eu/2017/06/17/automatictools/)
 
-http://happygitwithr.com/
+[http://happygitwithr.com/](http://happygitwithr.com/)
 
 `use_github_links`, `use_readme_md`, `use_code_of_conduct`
+
+---
 
 ## Session 4
 
@@ -185,13 +188,41 @@ http://happygitwithr.com/
 
 * package analytics
 
+---
+
 ## Package analytics
 
 * `cranlogs` package
 
 * `gh` package 
 
-* Track uses of your package http://happygitwithr.com/search.html
+* Track uses of your package http://happygitwithr.com/search.html (you can do that with `gh`!)
+
+---
+
+## Package analytics: CRAN logs --  a note on CRAN
+
+
+<img src="assets/things.png" width="500" />
+
+--
+
+
+`devtools::release`, release on GitHub + NEWS.md
+
+---
+
+## Package analytics: CRAN logs
+
+
+```{r}
+ggplot2_logs <- cranlogs::cran_downloads(packages = c("ggplot2", "dplyr"),
+                                         when = "last-month")
+ggplot2::ggplot(ggplot2_logs) +
+  ggplot2::geom_point(aes(date, count, col = package)) +
+  viridis::scale_color_viridis(discrete = TRUE)
+
+```
 
 ---
 
