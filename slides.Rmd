@@ -190,6 +190,16 @@ Minimal package, git and GitHub repo.
 
 ---
 
+## `pkgdown`
+
+Quick demo
+
+--
+
+[http://enpiar.com/2017/11/21/getting-down-with-pkgdown/](http://enpiar.com/2017/11/21/getting-down-with-pkgdown/)
+
+---
+
 ## Package analytics
 
 * `cranlogs` package
@@ -214,15 +224,32 @@ Minimal package, git and GitHub repo.
 
 ## Package analytics: CRAN logs
 
-
-```{r}
+```{r, fig.height = 6}
 ggplot2_logs <- cranlogs::cran_downloads(packages = c("ggplot2", "dplyr"),
                                          when = "last-month")
 ggplot2::ggplot(ggplot2_logs) +
-  ggplot2::geom_point(aes(date, count, col = package)) +
+  ggplot2::geom_line(aes(date, count, col = package)) +
   viridis::scale_color_viridis(discrete = TRUE)
 
 ```
+
+---
+
+## Package analytics: GitHub stargazers
+
+<img src="assets/forecast.png" width="500" />
+
+[https://github.com/maelle/forecast_stars](https://github.com/maelle/forecast_stars)
+
+---
+
+## Package analytics: GitHub search
+
+Search GitHub [https://github.com/search?utf8=%E2%9C%93&q=%22riem_measures%22+language%3AR&type=Code](https://github.com/search?utf8=%E2%9C%93&q=%22riem_measures%22+language%3AR&type=Code)
+
+Search GitHub via `gh`: [http://www.masalmon.eu/2017/04/12/seeds/](http://www.masalmon.eu/2017/04/12/seeds/)
+
+Use GitHub archive? [http://www.masalmon.eu/2017/12/21/wherehaveyoubeen/](http://www.masalmon.eu/2017/12/21/wherehaveyoubeen/)
 
 ---
 
