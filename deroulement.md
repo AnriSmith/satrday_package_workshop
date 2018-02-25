@@ -87,8 +87,9 @@ goodpractice
 How to install
 show how to: NEWS.md + release!
 
-
 now if time and maybe as choose your own adventure?
-pkgdown
-
-package analytics
+- pkgdown
+- package analytics
+- usethis setup
+- trying things out on GitHub e.g. pull requests to each other's packages,
+creating branches
