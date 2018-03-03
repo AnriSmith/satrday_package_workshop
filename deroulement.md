@@ -8,6 +8,7 @@ SCHEDULE
 * Intro slides about why to learn about package development, and about automation.
 
 * Make usethis and devtools available
+Note that later devtools should load usethis
 
 if (interactive()) {
   suppressMessages(require(devtools))
