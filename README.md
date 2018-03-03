@@ -12,3 +12,4 @@ A few links to here and there.
 
 * [what to do if you get bored](https://github.com/maelle/satrday_package_workshop/issues/3)
 
+* [more or less our end package](https://github.com/maelle/someone)
