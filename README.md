@@ -6,7 +6,7 @@ A few links to here and there.
 
 * [installation instructions](http://capetown2018.satrdays.org/instructions-maelle.html)
 
-* [my slides](slides.Rmd)
+* Slides: [rendered](http://www.masalmon.eu/satrday_package_workshop/slides), [their source](slides.Rmd)
 
 * [SA baby names data and data cleaning code](https://github.com/maelle/za_babynames)
 

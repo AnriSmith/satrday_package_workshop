@@ -256,6 +256,8 @@ Search GitHub via `gh`: [http://www.masalmon.eu/2017/04/12/seeds/](http://www.ma
 
 Use GitHub archive? [http://www.masalmon.eu/2017/12/21/wherehaveyoubeen/](http://www.masalmon.eu/2017/12/21/wherehaveyoubeen/)
 
+Other GitHub API, V4 https://github.com/maelle/ghrecipes
+
 ---
 
 ## What more could you try out now
