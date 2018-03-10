@@ -1,7 +1,7 @@
 ---
 title: "R package development"
 subtitle: "from laying functions to package hatching"
-author: "Maëlle Salmon (`r icon::fa('twitter')` ma_salmon, `r icon::fa('github')` maelle)"
+author: "Maëlle Salmon  <br/> `r icon::fa('twitter')` ma_salmon, `r icon::fa('github')` maelle"
 date: "2018/03/16"
 output:
   xaringan::moon_reader:
@@ -54,7 +54,10 @@ Jon Calder's very good wording, thanks Jon!
 
 Susan Johnston's [very good slide](https://github.com/susjoh/fibonacci).
 
-![](assets/susan_johnston.png)
+```{r, echo = FALSE}
+magick::image_read("assets/susan_johnston.png")
+
+```
 
 ---
 
